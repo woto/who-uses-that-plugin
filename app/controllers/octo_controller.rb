@@ -10,7 +10,8 @@ class OctoController < ApplicationController
   # 4. на примере http://github.com/karmi/marley/tree/master/vendor/ 
   # плагины могут лежать как submodule и содержать приписки "sinatra-sinatra - 0ade0be"	 
   # 5. просто кладут *.rb файлы http://github.com/karmi/marley/tree/master/vendor/ 
-
+  # 6. совсем забыл из-за того, что сделал Application.find_or_create_by_name...
+  # то начали появляться дубликаты, позже решить что делать
 STR = [
 "russian",
 "facker",
