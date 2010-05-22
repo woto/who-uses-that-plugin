@@ -12,6 +12,7 @@ class OctoController < ApplicationController
   # 5. просто кладут *.rb файлы http://github.com/karmi/marley/tree/master/vendor/ 
   # 6. совсем забыл из-за того, что сделал Application.find_or_create_by_name...
   # то начали появляться дубликаты, позже решить что делать
+
 STR = [
 "russian",
 "facker",
@@ -88,7 +89,9 @@ STR = [
 "inplace",
 "wysiwyg",
 "editor",
-"pagination"]
+"pagination",
+"crm",
+"orm"]
 
   require 'nokogiri'
   require 'open-uri'
